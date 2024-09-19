@@ -8,11 +8,8 @@ import './App.css';
 const API_KEY = 'pub_53811818a907cd3757c64cf3d6c1821f03745';  
 const API_URL = 'https://newsdata.io/api/1/news';
 
-function App() {
- 
-
-  return 
-    const [category, setCategory] = useState('');
+const App = () => {
+  const [category, setCategory] = useState('');
   const [country, setCountry] = useState(''); 
   const [noticias, setNoticias] = useState([]);
 
@@ -46,4 +43,4 @@ function App() {
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-export default App
+export default App;

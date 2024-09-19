@@ -1,0 +1,31 @@
+.noticia-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .noticia-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .noticia-card p {
+    font-size: 14px;
+  }
+  
+  .noticia-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .noticia-card a:hover {
+    background-color: #0056b3;
+  }
